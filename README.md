@@ -1,12 +1,13 @@
 # Amazon_Vine_Analysis
 Using PySpark language and SQL, this project was to analyze reviews to determine bias towards Amazon product reviews on the basis of Vine members sponsorship.
+---
 ### Overview:
 #### This analysis focused on US digital video download review: "https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Video_Download_v1_00.tsv.gz"
 ![Before_dropna](https://github.com/Gdreyes172/Amazon_Vine_Analysis/blob/main/Resources/Uncleaned_dfCount.png)
 ##### Uncleaned Dataframe
 ![Post_dropna](https://github.com/Gdreyes172/Amazon_Vine_Analysis/blob/main/Resources/cleaned_dfCount.png)
 ##### Cleaned Dataframe
-#### Before committing to this set of reviews we hoped to identify any nulls and remove them from our dataframes. 
+### Before committing to this set of reviews we hoped to identify any nulls and remove them from our dataframes. 
 ### It was important to identify how many reviews we were starting with to compare against the dataframe were created dropping all nulls. 
 ### As shown above, the difference was about 630 dropped votes. Out of our 4 million reviews, this wasn’t a total loss. So it seemed logical to continue forward with the analysis. 
 ### Upon completing the filtering of our reviews by review id, product id, star rating, helpful votes, and participation in the vine program (Yes/ No), and the verified id, our first filter of digital downloads for vine paid videos revealed no results. 
