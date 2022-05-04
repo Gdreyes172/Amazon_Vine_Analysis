@@ -24,7 +24,8 @@ pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
-*.egg
+Amazon_Reviews_ETL_starter_code.ipynb
+challenge_schema.sql
 MANIFEST
 
 # PyInstaller
